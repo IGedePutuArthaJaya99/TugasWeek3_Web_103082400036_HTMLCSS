@@ -1,0 +1,144 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header-utama {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.judul-utama {
+    margin: 0 0 15px 0;
+    font-size: 2.5em;
+}
+
+.menu-navigasi {
+    background-color: #1a252f;
+    padding: 10px 0;
+}
+
+.list-menu {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+}
+
+.link-navigasi {
+    color: #18bc9c;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.link-navigasi:hover {
+    color: #ffffff;
+}
+
+.konten-utama {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.kartu-artikel {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.header-artikel {
+    font-size: 1.5em;
+    color: #2c3e50;
+    border-bottom: 2px solid #18bc9c;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.judul-artikel {
+    margin: 0;
+}
+
+.gambar-artikel {
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 15px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.teks-artikel {
+    line-height: 1.6;
+}
+
+.tabel-jadwal {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.sel-tabel, .header-tabel {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+}
+
+.header-tabel {
+    background-color: #18bc9c;
+    color: white;
+    text-transform: uppercase;
+}
+
+.baris-genap {
+    background-color: #f9f9f9;
+}
+
+.footer-halaman {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.github-link {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    color: #18bc9c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.github-link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .list-menu {
+        flex-direction: column; 
+        align-items: center;
+    }
+    
+    .link-navigasi {
+        display: block;
+        margin: 10px 0; 
+    }
+    
+    .judul-utama {
+        font-size: 1.8em; 
+    }
+}
